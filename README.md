@@ -47,3 +47,6 @@ PASS  ./sum.test.js
 ✓ adds 1 + 2 to equal 3 (5ms)
 ```
 ### Você escreveu com sucesso seu primeiro teste usando Jest!
+
+
+(Créditos)[https://jestjs.io/pt-BR/docs/getting-started]
