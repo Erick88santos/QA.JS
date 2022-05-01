@@ -49,4 +49,4 @@ PASS  ./sum.test.js
 ### Você escreveu com sucesso seu primeiro teste usando Jest!
 
 
-(Créditos)[https://jestjs.io/pt-BR/docs/getting-started]
+[Créditos ao JESTJS](https://jestjs.io/pt-BR/docs/getting-started)
