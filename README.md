@@ -9,7 +9,7 @@
 npm install --save-dev jest
 ```
 
-Vamos começar por escrever um teste para uma função hipotética que soma dois números. Primeiro, crie um arquivo sum.js:
+### Vamos começar por escrever um teste para uma função hipotética que soma dois números. Primeiro, crie um arquivo sum.js:
 
 
 ```
@@ -30,4 +30,20 @@ test('adds 1 + 2 to equal 3', () => {
 });
 ``` 
 
+Adicione a seguinte seção ao seu package.json:
 
+```
+{
+  "scripts": {
+    "test": "jest"
+  }
+}
+```
+
+Finally, run yarn test or npm test and Jest will print this message:
+
+```
+PASS  ./sum.test.js
+✓ adds 1 + 2 to equal 3 (5ms)
+```
+### Você escreveu com sucesso seu primeiro teste usando Jest!
