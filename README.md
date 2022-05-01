@@ -3,6 +3,6 @@
 
 ## Iniciando
 
-´´´
+
 npm install --save-dev jest
-´´´
+
